@@ -12,7 +12,7 @@
 import { useStore } from "vuex";
 import { useI18n } from "vue-i18n";
 import { onMounted, ref, reactive, onUnmounted } from "vue";
-import { ElConfigProvider } from 'element-plus'
+import { ElConfigProvider } from "element-plus/lib/components";
 import ElementPlusZhCn from "element-plus/lib/locale/lang/zh-cn";
 import ElementPlusEn from "element-plus/lib/locale/lang/en";
 import FixedUploadPanel from '@/components/Upload/FixedUploadPanel.vue';
